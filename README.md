@@ -4,7 +4,7 @@
 
 Taste condenses 14 of the most-starred open-source design repos (Impeccable, Hallmark, Taste Skill, UI UX Pro Max, Emil Kowalski's skills, GSAP skills, Google DESIGN.md, awesome-design-md and more) into rules, art directions, an AI-slop audit and a component finder. Claude Code, Codex, Cursor and anything else that speaks MCP follow them while they build, so the first draft stops looking generated.
 
-Site and guides: **https://kamal007olica.github.io/taste-mcp/**
+Site and guides: **https://justkamal07.github.io/taste-mcp/**
 
 ## Add it
 
@@ -41,7 +41,7 @@ code --add-mcp '{"name":"taste","type":"http","url":"https://agent-taste.vercel.
 
 **Local over stdio** (offline except for brand references)
 ```bash
-claude mcp add --scope user taste -- npx -y github:Kamal007OLica/taste-mcp
+claude mcp add --scope user taste -- npx -y github:justkamal07/taste-mcp
 ```
 </details>
 
@@ -67,7 +67,7 @@ claude mcp add --scope user taste -- npx -y github:Kamal007OLica/taste-mcp
 
 Prompts appear as slash commands in Claude Code: `/mcp__taste__design`, `/mcp__taste__critique`, `/mcp__taste__polish`.
 
-No MCP? Point your agent at [`taste.md`](https://kamal007olica.github.io/taste-mcp/taste.md), which has every guide in one file, or at [`llms.txt`](https://kamal007olica.github.io/taste-mcp/llms.txt).
+No MCP? Point your agent at [`taste.md`](https://justkamal07.github.io/taste-mcp/taste.md), which has every guide in one file, or at [`llms.txt`](https://justkamal07.github.io/taste-mcp/llms.txt).
 
 ## The 14 sources
 
