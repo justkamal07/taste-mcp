@@ -11,7 +11,7 @@
     cursor: { cmd: `// ~/.cursor/mcp.json\n{\n  "mcpServers": {\n    "taste": { "url": "${ENDPOINT}" }\n  }\n}`, note: 'This file applies to every project. To scope it to one repo, put it at .cursor/mcp.json instead.' },
     desktop: { cmd: ENDPOINT, note: 'In the Claude desktop app or claude.ai, open Settings, then Connectors, then Add custom connector, and paste the link.' },
     vscode: { cmd: `code --add-mcp '{"name":"taste","type":"http","url":"${ENDPOINT}"}'`, note: 'Adds it to VS Code for agent mode.' },
-    local: { cmd: 'claude mcp add --scope user taste -- npx -y github:Kamal007OLica/taste-mcp', note: 'Runs the same server on your machine over stdio. Everything works offline except brand references, which are fetched from GitHub.' },
+    local: { cmd: 'claude mcp add --scope user taste -- npx -y github:justkamal07/taste-mcp', note: 'Runs the same server on your machine over stdio. Everything works offline except brand references, which are fetched from GitHub.' },
   };
   const cmdText = $('#cmd-text');
   const cmdNote = $('#cmd-note');

@@ -5,7 +5,7 @@ import { rank, tokens } from './search.js';
 import { audit } from './audit.js';
 
 export const VERSION = '1.0.0';
-export const SITE = 'https://kamal007olica.github.io/taste-mcp';
+export const SITE = 'https://justkamal07.github.io/taste-mcp';
 export const ENDPOINT = 'https://agent-taste.vercel.app/mcp';
 
 const text = (s) => ({ content: [{ type: 'text', text: s }] });

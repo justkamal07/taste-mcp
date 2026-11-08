@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kamal007OLica/taste-mcp.git"
+    "url": "git+https://github.com/justkamal07/taste-mcp.git"
   },
-  "homepage": "https://kamal007olica.github.io/taste-mcp/",
+  "homepage": "https://justkamal07.github.io/taste-mcp/",
   "keywords": [
     "mcp",
     "model-context-protocol",
